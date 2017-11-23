@@ -3,7 +3,6 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
-        haha
         """
         new_nums = sorted(nums)
         n = len(new_nums)
@@ -16,3 +15,7 @@ class Solution(object):
                 return new_nums[i] - 1
             i += 1
         return n
+
+    def f(self, nums):
+        n = len(nums)
+        return n * (n+1) / 2 - sum(nums)

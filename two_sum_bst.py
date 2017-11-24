@@ -15,4 +15,3 @@ class Solution:
             if node.right:
                 bfs.append(node.right)
         return False
-        
